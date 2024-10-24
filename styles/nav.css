@@ -1,3 +1,7 @@
+nav .btn-mobile {
+    display: none;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -20,4 +24,31 @@ nav ul li:last-child img {
     height: 40px;
     object-fit: cover;
     border-radius: 50%;
+}
+
+/*Até monitores pequenos*/
+@media(max-width: 1200px) {
+
+}
+
+
+/*Até tablet*/
+@media(max-width: 991px) {
+
+}
+
+
+/*Até celular*/
+@media(max-width: 768px) {
+    nav ul li {
+        display: none;
+    }
+    nav .btn-mobile {
+        display: block;
+    }
+}
+
+/*Até celular*/
+@media(max-width: 560px) {
+    
 }

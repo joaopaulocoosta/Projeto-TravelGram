@@ -42,3 +42,42 @@ header .container {
     gap: 8px;
 
 }
+
+/*Até monitores pequenos*/
+@media(max-width: 1200px) {
+
+}
+
+
+/*Até tablet*/
+@media(max-width: 991px) {
+    #profile {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    header .container {
+        flex-direction: column;
+        gap: 48px;
+    }
+    #info {
+        flex-direction: row;
+    }
+
+}
+
+
+/*Até celular*/
+@media(max-width: 768px) {
+    nav ul li {
+        display: none;
+    }
+    nav .btn-mobile {
+        display: block;
+    }
+}
+
+/*Até celular*/
+@media(max-width: 560px) {
+    
+}
