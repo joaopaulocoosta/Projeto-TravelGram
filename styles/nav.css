@@ -1,5 +1,6 @@
 nav .btn-mobile {
     display: none;
+
 }
 
 nav {
@@ -26,20 +27,12 @@ nav ul li:last-child img {
     border-radius: 50%;
 }
 
-/*Até monitores pequenos*/
-@media(max-width: 1200px) {
-
+#primary-menu.show {
+    display: flex;
 }
-
-
-/*Até tablet*/
-@media(max-width: 991px) {
-
-}
-
 
 /*Até celular*/
-@media(max-width: 768px) {
+@media(max-width: 600px) {
     nav ul li {
         display: none;
     }

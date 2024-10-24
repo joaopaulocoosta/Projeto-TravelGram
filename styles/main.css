@@ -3,11 +3,27 @@ main {
     flex-wrap: wrap;
     gap: 24px;
     padding-block: 24px;
+    justify-content: center;
 }
 
 main img {
-    width: 286px;
-    height: 286px;
+    width: 100%;
+    max-width: 286px;
+    height: auto;
     object-fit: cover;
 }
+
+@media (max-width: 768px) {
+    main img {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    main img {
+        max-width: 100%; 
+        height: auto;
+    }
+}
+
 
